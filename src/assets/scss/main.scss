@@ -1,0 +1,39 @@
+@import './_var.scss';
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a,
+span,
+img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,1 +1,5 @@
 @import '@/assets/scss/_var.scss';
+
+.movie-list {
+  @apply flex justify-start items-start flex-wrap m-auto max-w-screen-md;
+}

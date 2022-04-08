@@ -1,0 +1,23 @@
+@import '@/assets/scss/_var.scss';
+
+.movie-item {
+  width: 23rem;
+}
+
+.movie-poster {
+  width: 230px;
+  height: 345px;
+  @apply bg-slate-400;
+}
+
+.movie-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 18rem;
+}
+
+.movie-vote {
+  width: 5rem;
+  @apply text-center;
+}

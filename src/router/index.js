@@ -7,11 +7,11 @@ const routes = [
     name: 'home',
     component: Home,
   },
-  {
-    path: '/about',
-    name: 'about',
-    component: () => import('@/pages/About'),
-  },
+  // {
+  //   path: '/about',
+  //   name: 'about',
+  //   component: () => import('@/pages/About'),
+  // },
 ];
 
 const router = createRouter({
