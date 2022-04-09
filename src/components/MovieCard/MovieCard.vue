@@ -22,10 +22,12 @@ defineProps({
           :alt="title"
         />
       </div>
-      <div class="flex justify-start items-start text-2xl">
+      <div
+        class="flex justify-start items-stretch text-2xl px-3 py-4 text-white"
+      >
         <div class="flex-1 w-full">
           <p class="movie-title">{{ title }}</p>
-          <p>{{ release_date }}</p>
+          <p class="mt-1 text-gray-400">{{ release_date }}</p>
         </div>
         <div class="movie-vote">
           <span>{{ vote_average }}</span>

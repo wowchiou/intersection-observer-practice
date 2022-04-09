@@ -1,7 +1,19 @@
-# Vue 3 + Vite
+# JS Intersection Observer API practice
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+nodejs-version：v12.14.0
 
-## Recommended IDE Setup
+使用 JavaScript Intersection Observer API 實現無限滾動與 lazy loading 功能。當觀察物件進入設定的可視範圍內，觸發設定的方法，如載入影片、圖片或加載 api page。
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+實現基本步驟
+
+1.建立 const observer = new Intersection 實例
+
+2.並賦予實例兩個參數
+@observerCallback {function} 當觀察物件進入可視範圍時觸發
+@observerOption {object} 設定可視範圍參數
+
+3.建立觀察對象，可只有一個也可多個
+observer.observe(target)
+
+4.移除觀察對象
+observer.unobserve(target)

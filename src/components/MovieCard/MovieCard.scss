@@ -2,6 +2,7 @@
 
 .movie-item {
   width: 23rem;
+  @apply m-5;
 }
 
 .movie-poster {
@@ -15,9 +16,10 @@
   overflow: hidden;
   text-overflow: ellipsis;
   width: 18rem;
+  @apply text-3xl font-bold;
 }
 
 .movie-vote {
   width: 5rem;
-  @apply text-center;
+  @apply text-center text-5xl font-bold flex justify-center items-center text-yellow-600;
 }
