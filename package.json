@@ -6,7 +6,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "cf": "node createFile.js"
+    "cf": "node createFile.js",
+    "deploy": "sh deploy.sh "
   },
   "dependencies": {
     "autoprefixer": "^10.4.4",
