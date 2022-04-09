@@ -8,9 +8,9 @@ nodejs-version：v12.14.0
 
 1.建立 const observer = new Intersection 實例
 
-2.並賦予實例兩個參數
-@observerCallback {function} 當觀察物件進入可視範圍時觸發
-@observerOption {object} 設定可視範圍參數
+2.並賦予實例兩個參數<br>
+@observerCallback {function} 當觀察物件進入可視範圍時觸發<br>
+@observerOption {object} 設定可視範圍參數<br>
 
 3.建立觀察對象，可只有一個也可多個
 observer.observe(target)
