@@ -28,6 +28,7 @@ watch(
 );
 
 onMounted(() => {
+  console.log(import.meta.env);
   const options = props.observerOption && {
     root: null, // 觀察元素的父級,未給值預設視窗高度 (如有給父級元素必須設定高度)
     rootMargin: '0px 0px -1000px 0px',
